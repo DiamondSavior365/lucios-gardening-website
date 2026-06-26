@@ -28,11 +28,11 @@ git push -u origin main
 
 ## 2. Documentation Setup
 
-- [ x ] Create `docs/` folder
-- [ x ] Add `ROADMAP.md`
-- [ x ] Add `PHASE_1_SETUP.md`
-- [ x ] Add project notes as needed
-- [ x ] Keep documentation updated as the project grows
+- [x] Create `docs/` folder
+- [x] Add `ROADMAP.md`
+- [x] Add `PHASE_1_SETUP.md`
+- [x] Add project notes as needed
+- [x] Keep documentation updated as the project grows
 
 ### Suggested Structure
 
