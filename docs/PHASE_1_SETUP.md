@@ -8,13 +8,13 @@ Set up the foundation for the Lucio's Gardening website so the project is organi
 
 ## 1. Repository Setup
 
-- [ x ] Create project folder: `lucios-gardening-website`
-- [ x ] Initialize Git inside the project folder
-- [ x ] Create GitHub repository
-- [ x ] Connect local project to GitHub remote
-- [ x ] Rename default branch to `main`
-- [ x ] Make first commit
-- [ x ] Push project to GitHub
+- [x] Create project folder: `lucios-gardening-website`
+- [x] Initialize Git inside the project folder
+- [x] Create GitHub repository
+- [x] Connect local project to GitHub remote
+- [x] Rename default branch to `main`
+- [x] Make first commit
+- [x] Push project to GitHub
 
 ### Suggested Commit
 
