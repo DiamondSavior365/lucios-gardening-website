@@ -69,7 +69,7 @@ Future versions may include educational articles, luxury yard inspiration, garde
 
 ### Status
 
-Planned
+Complete
 
 ---
 
