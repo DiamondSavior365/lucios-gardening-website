@@ -106,10 +106,10 @@ src/
 
 ## 6. Base Dependencies
 
-- [ ] Install React Router
-- [ ] Install Motion / Framer Motion
-- [ ] Install icon library
-- [ ] Confirm all packages install correctly
+- [x] Install React Router
+- [x] Install Motion / Framer Motion
+- [x] Install icon library
+- [x] Confirm all packages install correctly
 
 ### Suggested Packages
 
@@ -121,10 +121,10 @@ npm install react-router-dom motion lucide-react
 
 ## 7. Routing Setup
 
-- [ ] Add React Router
-- [ ] Create basic page files
-- [ ] Connect routes inside the app
-- [ ] Test navigation between pages
+- [x] Add React Router
+- [x] Create basic page files
+- [x] Connect routes inside the app
+- [x] Test navigation between pages
 
 ### Starter Pages
 
