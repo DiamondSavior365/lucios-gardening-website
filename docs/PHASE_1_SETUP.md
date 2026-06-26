@@ -150,11 +150,11 @@ src/pages/Contact.jsx
 
 ## 8. Layout Setup
 
-- [ ] Create reusable `Navbar` component
-- [ ] Create reusable `Footer` component
-- [ ] Create reusable `Layout` component
-- [ ] Wrap pages with shared layout
-- [ ] Make sure navigation works on desktop and mobile
+- [x] Create reusable `Navbar` component
+- [x] Create reusable `Footer` component
+- [x] Create reusable `Layout` component
+- [x] Wrap pages with shared layout
+- [x] Make sure navigation works on desktop and mobile
 
 ### Suggested Components
 
