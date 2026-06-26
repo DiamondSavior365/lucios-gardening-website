@@ -48,9 +48,9 @@ docs/
 
 - [x] Create Vite React project
 - [x] Confirm app runs locally
-- [ ] Remove unnecessary starter files
-- [ ] Clean up default Vite styling
-- [ ] Update project title and basic metadata
+- [x] Remove unnecessary starter files
+- [x] Clean up default Vite styling
+- [x] Update project title and basic metadata
 
 ### Suggested Command
 
