@@ -69,12 +69,12 @@ npm run dev
 
 ## 4. Tailwind CSS Setup
 
-- [ ] Install Tailwind CSS
-- [ ] Create Tailwind config file
-- [ ] Configure content paths
-- [ ] Add Tailwind directives to main CSS file
-- [ ] Test Tailwind with a simple class
-- [ ] Remove unused starter CSS
+- [x] Install Tailwind CSS
+- [x] Create Tailwind config file
+- [x] Configure content paths
+- [x] Add Tailwind directives to main CSS file
+- [x] Test Tailwind with a simple class
+- [x] Remove unused starter CSS
 
 ### Goal
 
