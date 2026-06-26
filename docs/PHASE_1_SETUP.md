@@ -70,7 +70,7 @@ npm run dev
 ## 4. Tailwind CSS Setup
 
 - [x] Install Tailwind CSS
-- [x] Create Tailwind config file
+- [x] Configure Tailwind through Vite plugin
 - [x] Configure content paths
 - [x] Add Tailwind directives to main CSS file
 - [x] Test Tailwind with a simple class
@@ -84,10 +84,10 @@ Tailwind should be fully working before building the first page sections.
 
 ## 5. Folder Structure Setup
 
-- [ ] Create main source folders
-- [ ] Organize project for reusable components and pages
-- [ ] Keep assets separated from code
-- [ ] Prepare folders for future data and styles
+- [x] Create main source folders
+- [x] Organize project for reusable components and pages
+- [x] Keep assets separated from code
+- [x] Prepare folders for future data and styles
 
 ### Suggested Structure
 
