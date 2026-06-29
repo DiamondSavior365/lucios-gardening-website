@@ -1,5 +1,6 @@
 import { ArrowRight, Bird, Carrot, HeartPulse, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import SectionHeader from "../SectionHeader";
 
 const topics = [
   {
@@ -33,7 +34,7 @@ function OutdoorLivingSection() {
     <section className="bg-white px-6 py-20 text-[#13291f] md:px-8 md:py-28">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
+          {/* <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
             Outdoor Living Guide
           </p>
 
@@ -47,7 +48,12 @@ function OutdoorLivingSection() {
             health to vegetable gardens, wildlife-friendly plants, and luxury
             landscape ideas, the goal is to educate, inspire, and help
             homeowners invest with confidence.
-          </p>
+          </p> */}
+          <SectionHeader
+            eyebrow="Outdoor Living Guide"
+            title="More than maintenance — inspiration for better outdoor living"
+            description="Lucio's Gardening is being built to help customers understand what is possible for their outdoor spaces. From lawn care and tree health to vegetable gardens, wildlife-friendly plants, and luxury landscape ideas, the goal is to educate, inspire, and help homeowners invest with confidence."
+          />
 
           <Link
             to="/garden-journal"
