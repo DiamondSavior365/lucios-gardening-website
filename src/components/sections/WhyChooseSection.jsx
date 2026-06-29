@@ -1,4 +1,5 @@
 import { BadgeCheck, Clock, HeartHandshake, Sparkles } from "lucide-react";
+import SectionHeader from "../SectionHeader";
 
 const reasons = [
   {
@@ -31,7 +32,7 @@ function WhyChooseSection() {
   return (
     <section className="bg-[#13291f] px-6 py-20 text-white md:px-8 md:py-28">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-        <div>
+        {/* <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8b65a]">
             Why Choose Us
           </p>
@@ -45,7 +46,13 @@ function WhyChooseSection() {
             service, and the belief that a well-maintained outdoor space can
             completely change the way a home feels.
           </p>
-        </div>
+        </div> */}
+        <SectionHeader
+          eyebrow="Why Choose Us"
+          title="Reliable outdoor care with family pride behind every detail"
+          description="Lucio's Gardening is built around honest work, dependable service, and the belief that a well-maintained outdoor space can completely change the way a home feels."
+          theme="dark"
+        />
 
         <div className="grid gap-5 sm:grid-cols-2">
           {reasons.map((reason) => {
