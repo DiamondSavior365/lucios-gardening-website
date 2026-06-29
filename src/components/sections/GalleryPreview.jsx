@@ -4,6 +4,7 @@ import luxuryLawnCare1 from "../../assets/gallery/lawn-care/luxury-lawn-care-1.p
 import luxuryTreeCare1 from "../../assets/gallery/tree-care/luxury-tree-care-1.png";
 import luxuryLandscaping1 from "../../assets/gallery/landscaping/luxury-landscaping-3.png";
 import luxuryIrrigation1 from "../../assets/gallery/irrigation/luxury-irrigation-1.png";
+import SectionHeader from "../SectionHeader";
 
 const projects = [
   {
@@ -41,7 +42,7 @@ function GalleryPreview() {
     <section className="bg-[#f7f3ea] px-6 py-20 text-[#13291f] md:px-8 md:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
-          <div>
+          {/* <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
               Featured Work
             </p>
@@ -49,7 +50,11 @@ function GalleryPreview() {
             <h2 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
               Luxury-inspired outdoor care and polished landscapes
             </h2>
-          </div>
+          </div> */}
+          <SectionHeader
+            eyebrow="Featured Work"
+            title="Luxury-inspired outdoor care and polished landscapes"
+          />
 
           <Link
             to="/gallery"
