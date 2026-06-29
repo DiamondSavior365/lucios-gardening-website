@@ -358,6 +358,8 @@ Add features that make the website stand out from regular landscaping websites.
 
 ### Ideas
 
+- Plant & Tree Guide with flowers, plants, and trees
+- Educational plant cards with watering, sunlight, growth size, maintenance level, and wildlife benefits
 - Plant finder
 - Tree recommendation guide
 - Bird and butterfly garden guide
