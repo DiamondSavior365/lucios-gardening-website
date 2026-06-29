@@ -1,6 +1,6 @@
 import { Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -29,7 +29,7 @@ function Navbar() {
           Lucio&apos;s Gardening
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex">
+        {/* <div className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.label}
@@ -38,6 +38,21 @@ function Navbar() {
             >
               {link.label}
             </Link>
+          ))}
+        </div> */}
+        <div className="hidden items-center gap-8 md:flex">
+          {navLinks.map((link) => (
+            <NavLink
+              key={link.label}
+              to={link.path}
+              className={({ isActive }) =>
+                `text-sm font-medium transition hover:text-[#13291f] ${
+                  isActive ? "text-[#13291f]" : "text-[#43594d]"
+                }`
+              }
+            >
+              {link.label}
+            </NavLink>
           ))}
         </div>
 
@@ -63,7 +78,7 @@ function Navbar() {
       {isMenuOpen && (
         <div className="border-t border-[#e2d8c3] bg-[#f7f3ea] px-6 py-5 shadow-lg md:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-3">
-            {navLinks.map((link) => (
+            {/* {navLinks.map((link) => (
               <Link
                 key={link.label}
                 to={link.path}
@@ -72,6 +87,20 @@ function Navbar() {
               >
                 {link.label}
               </Link>
+            ))} */}
+            {navLinks.map((link) => (
+              <NavLink
+                key={link.label}
+                to={link.path}
+                onClick={closeMenu}
+                className={({ isActive }) =>
+                  `rounded-2xl px-4 py-3 text-base font-semibold transition hover:bg-white hover:text-[#13291f] ${
+                    isActive ? "bg-white text-[#13291f]" : "text-[#43594d]"
+                  }`
+                }
+              >
+                {link.label}
+              </NavLink>
             ))}
 
             <Link
