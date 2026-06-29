@@ -1,10 +1,11 @@
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import luxuryLawnCare1 from "../../assets/gallery/lawn-care/luxury-lawn-care-1.png";
 import luxuryTreeCare1 from "../../assets/gallery/tree-care/luxury-tree-care-1.png";
 import luxuryLandscaping1 from "../../assets/gallery/landscaping/luxury-landscaping-3.png";
 import luxuryIrrigation1 from "../../assets/gallery/irrigation/luxury-irrigation-1.png";
 import SectionHeader from "../SectionHeader";
+import ButtonLink from "../ButtonLink";
 
 const projects = [
   {
@@ -56,13 +57,21 @@ function GalleryPreview() {
             title="Luxury-inspired outdoor care and polished landscapes"
           />
 
-          <Link
+          {/* <Link
             to="/gallery"
             className="inline-flex w-fit items-center gap-3 rounded-full border border-[#d6c8aa] px-6 py-3 text-sm font-bold uppercase tracking-[0.2em] text-[#13291f] transition hover:border-[#13291f] hover:bg-[#13291f] hover:text-white"
           >
             View Gallery
             <ArrowRight size={18} />
-          </Link>
+          </Link> */}
+          <ButtonLink
+            to="/gallery"
+            variant="outlineDark"
+            icon={ArrowRight}
+            className="w-fit px-6 py-3"
+          >
+            View Gallery
+          </ButtonLink>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">

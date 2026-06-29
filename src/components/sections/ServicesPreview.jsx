@@ -1,6 +1,7 @@
 import { Droplets, Leaf, Scissors, Trees } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import SectionHeader from "../SectionHeader";
+import ButtonLink from "../ButtonLink";
 
 const services = [
   {
@@ -48,12 +49,19 @@ function ServicesPreview() {
             title="Complete care for beautiful outdoor spaces"
           />
 
-          <Link
+          {/* <Link
             to="/services"
             className="inline-flex w-fit rounded-full border border-[#d6c8aa] px-6 py-3 text-sm font-bold uppercase tracking-[0.2em] text-[#13291f] transition hover:border-[#13291f] hover:bg-[#13291f] hover:text-white"
           >
             View All Services
-          </Link>
+          </Link> */}
+          <ButtonLink
+            to="/services"
+            variant="outlineDark"
+            className="w-fit px-6 py-3"
+          >
+            View All Services
+          </ButtonLink>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">

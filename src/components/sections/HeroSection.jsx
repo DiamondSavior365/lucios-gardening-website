@@ -1,5 +1,5 @@
 import { ArrowRight, Leaf, Phone } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ButtonLink from "../ButtonLink";
 
 function HeroSection() {
