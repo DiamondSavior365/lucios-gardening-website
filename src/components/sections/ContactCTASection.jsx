@@ -1,12 +1,13 @@
 import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import SectionHeader from "../SectionHeader";
 
 function ContactCTASection() {
   return (
     <section className="bg-[#13291f] px-6 py-20 text-white md:px-8 md:py-28">
       <div className="mx-auto grid max-w-7xl gap-12 rounded-[2rem] border border-white/10 bg-white/8 p-8 backdrop-blur md:p-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8b65a]">
+          {/* <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8b65a]">
             Start the Conversation
           </p>
 
@@ -18,7 +19,13 @@ function ContactCTASection() {
             Whether you need lawn care, tree care, landscaping, irrigation, or a
             full outdoor refresh, Lucio&apos;s Gardening is here to help keep
             your property clean, healthy, and beautiful.
-          </p>
+          </p> */}
+          <SectionHeader
+            eyebrow="Start the Conversation"
+            title="Ready to improve your outdoor space?"
+            description="Whether you need lawn care, tree care, landscaping, irrigation, or a full outdoor refresh, Lucio's Gardening is here to help keep your property clean, healthy, and beautiful."
+            theme="dark"
+          />
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
