@@ -1,46 +1,44 @@
-import { ArrowRight, Leaf, Phone } from "lucide-react";
-// import { Link } from "react-router-dom";
-import ButtonLink from "../ButtonLink";
+import { ArrowRight, Leaf } from "lucide-react";
+
+import ButtonLink from "../ButtonLink.jsx";
+import heroLuxuryEstate from "../../assets/hero/hero-luxury-estate-1.png";
 
 function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#13291f] px-6 py-24 text-white md:px-8 md:py-32">
-      <div className="absolute inset-0 opacity-20">
-        <div className="h-full w-full bg-[radial-gradient(circle_at_top_left,_#d8b65a,_transparent_35%),radial-gradient(circle_at_bottom_right,_#224735,_transparent_40%)]" />
-      </div>
+    // <section className="relative min-h-[calc(100vh-82px)] overflow-hidden bg-[#13291f] px-6 py-24 text-white md:px-8 md:py-32">
+    <section className="relative min-h-[calc(100vh-82px)] overflow-hidden bg-[#13291f] px-6 py-16 text-white md:px-8 md:py-20">
+      <img
+        src={heroLuxuryEstate}
+        alt="Luxury landscaped estate with lawn, trees, and outdoor living space"
+        className="absolute inset-0 h-full w-full object-cover"
+      />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
-        <div>
-          <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm text-white/80 backdrop-blur">
+      <div className="absolute inset-0 bg-[#13291f]/0" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#13291f]/75 via-[#13291f]/45 to-[#13291f]/0" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#13291f]/55 via-transparent to-transparent" />
+
+      {/* <div className="relative mx-auto flex min-h-[calc(100vh-230px)] max-w-7xl flex-col justify-center"> */}
+      <div className="relative mx-auto flex min-h-[calc(100vh-230px)] max-w-7xl flex-col justify-center">
+        <div className="max-w-4xl">
+          <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm text-white/85 backdrop-blur">
             <Leaf size={16} className="text-[#d8b65a]" />
-            Family-owned lawn, tree, and landscape care
+            Family-owned lawn, tree, landscape, and irrigation care
           </div>
 
-          <h1 className="max-w-4xl text-5xl font-bold leading-[0.95] tracking-tight md:text-7xl">
+          <h1 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight md:text-7xl lg:text-8xl">
             Beautiful Outdoor Spaces, Maintained with Care
           </h1>
 
-          <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75 md:text-xl">
+          <p className="mt-7 max-w-2xl text-lg leading-8 text-white/80 md:text-xl">
             Lucio&apos;s Gardening provides reliable lawn care, tree care,
-            landscaping, cleanups, and outdoor maintenance for homeowners who
-            want their property to look clean, healthy, and cared for.
+            landscaping, and irrigation services for homeowners and properties
+            that deserve a clean, polished, luxury-inspired finish.
+          </p>
+          <p className="mt-5 text-sm font-semibold uppercase tracking-[0.25em] text-white/65">
+            Residential • Commercial • Hotel • Outdoor Property Care
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            {/* <Link
-              to="/contact"
-              className="inline-flex items-center justify-center gap-3 rounded-full bg-[#d8b65a] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-[#13291f] transition hover:bg-white"
-            >
-              Request Estimate
-              <ArrowRight size={18} />
-            </Link>
-
-            <Link
-              to="/services"
-              className="inline-flex items-center justify-center gap-3 rounded-full border border-white/20 px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#13291f]"
-            >
-              View Services
-            </Link> */}
             <ButtonLink to="/contact" variant="gold" icon={ArrowRight}>
               Request Estimate
             </ButtonLink>
@@ -49,31 +47,66 @@ function HeroSection() {
               View Services
             </ButtonLink>
           </div>
-
-          <div className="mt-10 flex flex-col gap-3 text-sm text-white/65 sm:flex-row sm:items-center sm:gap-8">
-            <p>Lawn Care</p>
-            <p>Tree Care</p>
-            <p>Landscaping</p>
-            <p>Irrigation</p>
-          </div>
         </div>
 
-        <div className="rounded-[2rem] border border-white/15 bg-white/10 p-4 shadow-2xl backdrop-blur">
-          <div className="grid min-h-[420px] place-items-center rounded-[1.5rem] bg-[#f7f3ea] p-8 text-center text-[#13291f]">
-            <div>
-              <Phone className="mx-auto mb-6 text-[#9c7a32]" size={44} />
-              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-                Project Photos Coming Soon
-              </p>
-              <h2 className="mt-4 text-3xl font-bold">
-                Real Work Gallery Placeholder
-              </h2>
-              <p className="mt-4 max-w-sm leading-7 text-[#43594d]">
-                This area will later feature a premium outdoor image, project
-                photo, or before-and-after transformation.
-              </p>
-            </div>
+        <div className="mt-16 grid gap-4 border-t border-white/15 pt-8 text-sm text-white/75 sm:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <p className="font-semibold uppercase tracking-[0.25em] text-[#d8b65a]">
+              01 Lawn Care
+            </p>
+            <p className="mt-2 text-lg font-semibold text-white">
+              Precision mowing & clean edging
+            </p>
           </div>
+
+          <div>
+            <p className="font-semibold uppercase tracking-[0.25em] text-[#d8b65a]">
+              02 Tree Care
+            </p>
+            <p className="mt-2 text-lg font-semibold text-white">
+              Tree, palm & stump support
+            </p>
+          </div>
+
+          <div>
+            <p className="font-semibold uppercase tracking-[0.25em] text-[#d8b65a]">
+              03 Landscaping
+            </p>
+            <p className="mt-2 text-lg font-semibold text-white">
+              Planting & outdoor upgrades
+            </p>
+          </div>
+
+          <div>
+            <p className="font-semibold uppercase tracking-[0.25em] text-[#d8b65a]">
+              04 Irrigation
+            </p>
+            <p className="mt-2 text-lg font-semibold text-white">
+              Efficient sprinkler coverage
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* <div className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-white/60 md:flex">
+        <span className="text-xs uppercase tracking-[0.3em]">Scroll</span>
+        <span className="h-10 w-px bg-white/40" />
+      </div> */}
+      {/* <div className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-3 text-white/60 lg:flex">
+        <span className="text-[0.65rem] font-semibold uppercase tracking-[0.35em]">
+          Scroll
+        </span>
+
+        <div className="flex h-10 w-6 justify-center rounded-full border border-white/35 pt-2">
+          <span className="h-2 w-1 rounded-full bg-white/60" />
+        </div>
+      </div> */}
+      <div className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-3 text-white/60 lg:flex">
+        <span className="text-[0.65rem] font-semibold uppercase tracking-[0.35em]">
+          Scroll
+        </span>
+
+        <div className="flex h-11 w-6 justify-center rounded-full border border-white/35 pt-2">
+          <span className="scroll-dot h-2 w-1 rounded-full bg-white/70" />
         </div>
       </div>
     </section>
