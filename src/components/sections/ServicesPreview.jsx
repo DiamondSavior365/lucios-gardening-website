@@ -1,5 +1,6 @@
 import { Droplets, Leaf, Scissors, Trees } from "lucide-react";
 import { Link } from "react-router-dom";
+import SectionHeader from "../SectionHeader";
 
 const services = [
   {
@@ -33,7 +34,7 @@ function ServicesPreview() {
     <section className="bg-[#f7f3ea] px-6 py-20 text-[#13291f] md:px-8 md:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
-          <div>
+          {/* <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
               What We Do
             </p>
@@ -41,7 +42,11 @@ function ServicesPreview() {
             <h2 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
               Complete care for beautiful outdoor spaces
             </h2>
-          </div>
+          </div> */}
+          <SectionHeader
+            eyebrow="What We Do"
+            title="Complete care for beautiful outdoor spaces"
+          />
 
           <Link
             to="/services"
