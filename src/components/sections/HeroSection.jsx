@@ -1,5 +1,6 @@
 import { ArrowRight, Leaf, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import ButtonLink from "../ButtonLink";
 
 function HeroSection() {
   return (
@@ -26,7 +27,7 @@ function HeroSection() {
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Link
+            {/* <Link
               to="/contact"
               className="inline-flex items-center justify-center gap-3 rounded-full bg-[#d8b65a] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-[#13291f] transition hover:bg-white"
             >
@@ -39,7 +40,14 @@ function HeroSection() {
               className="inline-flex items-center justify-center gap-3 rounded-full border border-white/20 px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#13291f]"
             >
               View Services
-            </Link>
+            </Link> */}
+            <ButtonLink to="/contact" variant="gold" icon={ArrowRight}>
+              Request Estimate
+            </ButtonLink>
+
+            <ButtonLink to="/services" variant="outlineLight">
+              View Services
+            </ButtonLink>
           </div>
 
           <div className="mt-10 flex flex-col gap-3 text-sm text-white/65 sm:flex-row sm:items-center sm:gap-8">
