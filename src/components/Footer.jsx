@@ -38,6 +38,9 @@ function Footer() {
             <Link className="hover:text-white" to="/gallery">
               Gallery
             </Link>
+            <Link className="hover:text-white" to="/garden-journal">
+              Garden Journal
+            </Link>
             <Link className="hover:text-white" to="/contact">
               Contact
             </Link>
