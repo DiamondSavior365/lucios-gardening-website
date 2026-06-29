@@ -1,6 +1,7 @@
 import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import SectionHeader from "../SectionHeader";
+import ButtonLink from "../ButtonLink";
 
 function ContactCTASection() {
   return (
@@ -28,7 +29,7 @@ function ContactCTASection() {
           />
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Link
+            {/* <Link
               to="/contact"
               className="inline-flex items-center justify-center gap-3 rounded-full bg-[#d8b65a] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-[#13291f] transition hover:bg-white"
             >
@@ -41,7 +42,16 @@ function ContactCTASection() {
               className="inline-flex items-center justify-center rounded-full border border-white/20 px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#13291f]"
             >
               Explore Services
-            </Link>
+            </Link> */}
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <ButtonLink to="/contact" variant="gold" icon={ArrowRight}>
+                Request a Free Estimate
+              </ButtonLink>
+
+              <ButtonLink to="/services" variant="outlineLight">
+                Explore Services
+              </ButtonLink>
+            </div>
           </div>
         </div>
 

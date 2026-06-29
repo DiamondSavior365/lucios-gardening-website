@@ -1,6 +1,7 @@
 import { ArrowRight, Bird, Carrot, HeartPulse, Sparkles } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import SectionHeader from "../SectionHeader";
+import ButtonLink from "../ButtonLink";
 
 const topics = [
   {
@@ -55,13 +56,21 @@ function OutdoorLivingSection() {
             description="Lucio's Gardening is being built to help customers understand what is possible for their outdoor spaces. From lawn care and tree health to vegetable gardens, wildlife-friendly plants, and luxury landscape ideas, the goal is to educate, inspire, and help homeowners invest with confidence."
           />
 
-          <Link
+          {/* <Link
             to="/garden-journal"
             className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#13291f] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-[#224735]"
           >
             Garden Journal Coming Soon
             <ArrowRight size={18} />
-          </Link>
+          </Link> */}
+          <ButtonLink
+            to="/garden-journal"
+            variant="primary"
+            icon={ArrowRight}
+            className="mt-10"
+          >
+            Garden Journal Coming Soon
+          </ButtonLink>
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2">
