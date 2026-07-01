@@ -7,6 +7,7 @@ import Services from "./pages/Services.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import Contact from "./pages/Contact.jsx";
 import GardenJournal from "./pages/GardenJournal.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/garden-journal" element={<GardenJournal />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </BrowserRouter>
