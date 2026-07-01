@@ -1,5 +1,6 @@
 import { Droplets, Leaf, Scissors, Trees } from "lucide-react";
 import { Link } from "react-router-dom";
+import PageHero from "../components/PageHero.jsx";
 
 const services = [
   {
@@ -63,25 +64,11 @@ const services = [
 function Services() {
   return (
     <main className="bg-[#f7f3ea] text-[#13291f]">
-      <section className="px-6 py-20 md:px-8 md:py-28">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-            Our Services
-          </p>
-
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
-            <h1 className="max-w-4xl text-5xl font-bold tracking-tight md:text-7xl">
-              Complete outdoor care for lawns, trees, landscapes, and irrigation
-            </h1>
-
-            <p className="max-w-xl text-lg leading-8 text-[#43594d]">
-              Lucio&apos;s Gardening provides dependable outdoor maintenance and
-              property care for homeowners, commercial properties, hotels, and
-              outdoor spaces that need a clean, polished look.
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="Our Services"
+        title="Complete outdoor care for lawns, trees, landscapes, and irrigation"
+        description="Lucio's Gardening provides dependable outdoor maintenance and property care for homeowners, commercial properties, hotels, and outdoor spaces that need a clean, polished look."
+      />
 
       <section className="px-6 pb-20 md:px-8 md:pb-28">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2">

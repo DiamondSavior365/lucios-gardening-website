@@ -78,16 +78,6 @@ function Navbar() {
       {isMenuOpen && (
         <div className="border-t border-[#e2d8c3] bg-[#f7f3ea] px-6 py-5 shadow-lg md:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-3">
-            {/* {navLinks.map((link) => (
-              <Link
-                key={link.label}
-                to={link.path}
-                onClick={closeMenu}
-                className="rounded-2xl px-4 py-3 text-base font-semibold text-[#43594d] transition hover:bg-white hover:text-[#13291f]"
-              >
-                {link.label}
-              </Link>
-            ))} */}
             {navLinks.map((link) => (
               <NavLink
                 key={link.label}

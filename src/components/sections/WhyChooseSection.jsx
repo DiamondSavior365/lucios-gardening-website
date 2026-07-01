@@ -32,21 +32,6 @@ function WhyChooseSection() {
   return (
     <section className="bg-[#13291f] px-6 py-20 text-white md:px-8 md:py-28">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-        {/* <div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8b65a]">
-            Why Choose Us
-          </p>
-
-          <h2 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
-            Reliable outdoor care with family pride behind every detail
-          </h2>
-
-          <p className="mt-6 max-w-xl text-lg leading-8 text-white/70">
-            Lucio&apos;s Gardening is built around honest work, dependable
-            service, and the belief that a well-maintained outdoor space can
-            completely change the way a home feels.
-          </p>
-        </div> */}
         <SectionHeader
           eyebrow="Why Choose Us"
           title="Reliable outdoor care with family pride behind every detail"

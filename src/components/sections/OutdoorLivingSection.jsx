@@ -35,34 +35,12 @@ function OutdoorLivingSection() {
     <section className="bg-white px-6 py-20 text-[#13291f] md:px-8 md:py-28">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          {/* <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-            Outdoor Living Guide
-          </p>
-
-          <h2 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
-            More than maintenance — inspiration for better outdoor living
-          </h2>
-
-          <p className="mt-6 max-w-xl text-lg leading-8 text-[#43594d]">
-            Lucio&apos;s Gardening is being built to help customers understand
-            what is possible for their outdoor spaces. From lawn care and tree
-            health to vegetable gardens, wildlife-friendly plants, and luxury
-            landscape ideas, the goal is to educate, inspire, and help
-            homeowners invest with confidence.
-          </p> */}
           <SectionHeader
             eyebrow="Outdoor Living Guide"
             title="More than maintenance — inspiration for better outdoor living"
             description="Lucio's Gardening is being built to help customers understand what is possible for their outdoor spaces. From lawn care and tree health to vegetable gardens, wildlife-friendly plants, and luxury landscape ideas, the goal is to educate, inspire, and help homeowners invest with confidence."
           />
 
-          {/* <Link
-            to="/garden-journal"
-            className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#13291f] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-[#224735]"
-          >
-            Garden Journal Coming Soon
-            <ArrowRight size={18} />
-          </Link> */}
           <ButtonLink
             to="/garden-journal"
             variant="primary"
