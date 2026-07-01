@@ -2,6 +2,7 @@ import luxuryLawnCare1 from "../assets/gallery/lawn-care/luxury-lawn-care-1.png"
 import luxuryTreeCare1 from "../assets/gallery/tree-care/luxury-tree-care-1.png";
 import luxuryLandscaping1 from "../assets/gallery/landscaping/luxury-landscaping-1.png";
 import luxuryIrrigation1 from "../assets/gallery/irrigation/luxury-irrigation-1.png";
+import PageHero from "../components/PageHero";
 
 const galleryItems = [
   {
@@ -37,7 +38,7 @@ const galleryItems = [
 function Gallery() {
   return (
     <main className="bg-[#f7f3ea] text-[#13291f]">
-      <section className="px-6 py-20 md:px-8 md:py-28">
+      {/* <section className="px-6 py-20 md:px-8 md:py-28">
         <div className="mx-auto max-w-7xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
             Project Gallery
@@ -56,7 +57,12 @@ function Gallery() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+      <PageHero
+        eyebrow="Project Gallery"
+        title="Outdoor spaces with a clean, polished, luxury-inspired finish"
+        description="This gallery will showcase lawn care, tree care, landscaping, irrigation, and outdoor transformations. For now, generated visuals help represent the premium direction while protecting customer privacy."
+      />
 
       <section className="px-6 pb-20 md:px-8 md:pb-28">
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">

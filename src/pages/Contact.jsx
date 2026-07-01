@@ -1,27 +1,14 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import PageHero from "../components/PageHero";
 
 function Contact() {
   return (
     <main className="bg-[#f7f3ea] text-[#13291f]">
-      <section className="px-6 py-20 md:px-8 md:py-28">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-            Contact
-          </p>
-
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
-            <h1 className="max-w-4xl text-5xl font-bold tracking-tight md:text-7xl">
-              Request a free estimate for your outdoor space
-            </h1>
-
-            <p className="max-w-xl text-lg leading-8 text-[#43594d]">
-              Tell us what your property needs, and Lucio&apos;s Gardening will
-              help with lawn care, tree care, landscaping, irrigation, or
-              outdoor maintenance services.
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="Contact"
+        title="Request a free estimate for your outdoor space"
+        description="Tell us what your property needs, and Lucio's Gardening will help with lawn care, tree care, landscaping, irrigation, or outdoor maintenance services."
+      />
 
       <section className="px-6 pb-20 md:px-8 md:pb-28">
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.8fr_1.2fr]">
