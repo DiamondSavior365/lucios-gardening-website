@@ -38,26 +38,6 @@ const galleryItems = [
 function Gallery() {
   return (
     <main className="bg-[#f7f3ea] text-[#13291f]">
-      {/* <section className="px-6 py-20 md:px-8 md:py-28">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-            Project Gallery
-          </p>
-
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
-            <h1 className="max-w-4xl text-5xl font-bold tracking-tight md:text-7xl">
-              Outdoor spaces with a clean, polished, luxury-inspired finish
-            </h1>
-
-            <p className="max-w-xl text-lg leading-8 text-[#43594d]">
-              This gallery will showcase lawn care, tree care, landscaping,
-              irrigation, and outdoor transformations. For now, generated
-              visuals help represent the premium direction while protecting
-              customer privacy.
-            </p>
-          </div>
-        </div>
-      </section> */}
       <PageHero
         eyebrow="Project Gallery"
         title="Outdoor spaces with a clean, polished, luxury-inspired finish"

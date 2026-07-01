@@ -1,5 +1,6 @@
 import { Bird, Carrot, Leaf, Sparkles, Trees } from "lucide-react";
 import ButtonLink from "../components/ButtonLink.jsx";
+import PageHero from "../components/PageHero.jsx";
 
 const futureTopics = [
   {
@@ -37,25 +38,11 @@ const futureTopics = [
 function GardenJournal() {
   return (
     <main className="bg-[#f7f3ea] text-[#13291f]">
-      <section className="px-6 py-20 md:px-8 md:py-28">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-            Garden Journal
-          </p>
-
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
-            <h1 className="max-w-4xl text-5xl font-bold tracking-tight md:text-7xl">
-              Outdoor living ideas, plant education, and garden inspiration
-            </h1>
-
-            <p className="max-w-xl text-lg leading-8 text-[#43594d]">
-              This future education hub will help customers learn about lawn
-              care, trees, flowers, plants, vegetable gardens, wildlife-friendly
-              spaces, and luxury outdoor upgrades.
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="Garden Journal"
+        title="Outdoor living ideas, plant education, and garden inspiration"
+        description="This future education hub will help customers learn about lawn care, trees, flowers, plants, vegetable gardens, wildlife-friendly spaces, and luxury outdoor upgrades."
+      />
 
       <section className="px-6 pb-20 md:px-8 md:pb-28">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">

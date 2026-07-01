@@ -1,5 +1,6 @@
 import { BadgeCheck, HeartHandshake, Leaf, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import PageHero from "../components/PageHero";
 
 const values = [
   {
@@ -31,25 +32,11 @@ const values = [
 function About() {
   return (
     <main className="bg-[#f7f3ea] text-[#13291f]">
-      <section className="px-6 py-20 md:px-8 md:py-28">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#9c7a32]">
-            About Lucio&apos;s Gardening
-          </p>
-
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
-            <h1 className="max-w-4xl text-5xl font-bold tracking-tight md:text-7xl">
-              Family-owned outdoor care with a luxury-inspired standard
-            </h1>
-
-            <p className="max-w-xl text-lg leading-8 text-[#43594d]">
-              Lucio&apos;s Gardening provides lawn care, tree care, landscaping,
-              and irrigation support with a focus on reliable service, clean
-              work, and beautiful outdoor spaces.
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="About Lucio's Gardening"
+        title="Family-owned outdoor care with a luxury-inspired standard"
+        description="Lucio's Gardening provides lawn care, tree care, landscaping, and irrigation support with a focus on reliable service, clean work, and beautiful outdoor spaces."
+      />
 
       <section className="px-6 pb-20 md:px-8 md:pb-28">
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
