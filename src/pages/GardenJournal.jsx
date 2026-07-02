@@ -73,19 +73,20 @@ function GardenJournal() {
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1fr_0.7fr] lg:items-center">
           <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8b65a]">
-              Coming Later
+              Outdoor Inspiration
             </p>
 
             <h2 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
-              A full plant library and article system will live here
+              Helpful ideas for healthier, cleaner outdoor spaces
             </h2>
           </div>
 
           <div>
             <p className="text-lg leading-8 text-white/70">
-              Later, this page can connect to Supabase so articles, plant cards,
-              tree guides, and garden tips can be created from a private admin
-              dashboard.
+              This page is designed to share lawn care tips, plant ideas, tree
+              care guidance, irrigation support, and outdoor inspiration for
+              customers who want to improve and maintain their properties with
+              confidence.
             </p>
 
             <ButtonLink to="/contact" variant="gold" className="mt-8">

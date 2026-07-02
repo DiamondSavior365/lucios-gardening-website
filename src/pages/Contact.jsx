@@ -85,7 +85,12 @@ function Contact() {
                 </div>
                 <div>
                   <p className="font-bold">Phone</p>
-                  <p className="mt-1 text-white/70">Phone number coming soon</p>
+                  <a
+                    href="tel:+16262017428"
+                    className="mt-1 block text-white/70 transition hover:text-white"
+                  >
+                    (626) 201-7428
+                  </a>
                 </div>
               </div>
 
@@ -95,7 +100,12 @@ function Contact() {
                 </div>
                 <div>
                   <p className="font-bold">Email</p>
-                  <p className="mt-1 text-white/70">Email coming soon</p>
+                  <a
+                    href="mailto:devbydiamond24.7@gmail.com"
+                    className="mt-1 block text-white/70 transition hover:text-white"
+                  >
+                    devbydiamond24.7@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -115,11 +125,13 @@ function Contact() {
 
             <div className="mt-10 rounded-2xl border border-white/10 bg-white/8 p-5">
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#d8b65a]">
-                Coming Soon
+                Quick Response
               </p>
               <p className="mt-3 leading-7 text-white/70">
-                This form will later connect to Supabase so quote requests can
-                be saved, reviewed, and managed from an admin dashboard.
+                Submit your request and we&apos;ll review your project details
+                as soon as possible. Please include the city, service needed,
+                and any helpful property details so we can better understand the
+                job.
               </p>
             </div>
           </aside>

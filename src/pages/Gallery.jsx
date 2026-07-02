@@ -81,19 +81,19 @@ function Gallery() {
       <section className="bg-[#13291f] px-6 py-20 text-white md:px-8 md:py-28">
         <div className="mx-auto max-w-7xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8b65a]">
-            Future Gallery Expansion
+            Gallery Preview
           </p>
 
           <h2 className="max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
-            Before-and-after transformations, real project photos, and service
-            categories coming soon
+            Outdoor service visuals created to show the style of work we provide
           </h2>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-            As the website grows, this gallery can include real project photos,
-            generated concept visuals, before-and-after comparisons, commercial
-            properties, hotels, residential estates, and organized service
-            categories.
+            This gallery is designed to highlight the types of services
+            Lucio&apos;s Gardening offers, including lawn care, tree care,
+            landscaping, and irrigation. To respect customer privacy, the
+            visuals shown here are concept-style examples rather than private
+            customer property photos.
           </p>
         </div>
       </section>

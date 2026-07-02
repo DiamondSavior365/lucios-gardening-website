@@ -97,26 +97,28 @@ function About() {
             </p>
 
             <h2 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
-              Helping customers imagine better outdoor spaces
+              Outdoor care designed to improve the look and feel of your
+              property
             </h2>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#43594d]">
-              Lucio&apos;s Gardening is being built to become more than a
-              service website. Future sections will include outdoor living
-              ideas, plant and tree guides, garden education, lawn tips, and
-              inspiration for homeowners who want to improve their properties.
+              Lucio&apos;s Gardening helps customers maintain outdoor spaces
+              that feel clean, welcoming, and well cared for. From lawn care and
+              tree support to landscaping improvements and irrigation service,
+              our goal is to help every property look its best with reliable,
+              detail-focused work.
             </p>
           </div>
 
           <div className="rounded-[2rem] border border-[#e2d8c3] bg-[#f7f3ea] p-8">
-            <h3 className="text-3xl font-bold">Future Vision</h3>
+            <h3 className="text-3xl font-bold">Outdoor Services</h3>
 
             <ul className="mt-6 grid gap-4 text-[#43594d]">
-              <li>• Garden Journal and outdoor living articles</li>
-              <li>• Plant, flower, and tree guide</li>
-              <li>• Before-and-after project showcases</li>
-              <li>• Quote requests and lead tracking</li>
-              <li>• Admin dashboard for content management</li>
+              <li>• Lawn care and clean edging</li>
+              <li>• Tree and palm care support</li>
+              <li>• Landscaping refreshes and planting</li>
+              <li>• Irrigation checks and sprinkler adjustments</li>
+              <li>• Property cleanups and curb appeal improvements</li>
             </ul>
           </div>
         </div>

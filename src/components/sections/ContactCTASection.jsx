@@ -37,8 +37,14 @@ function ContactCTASection() {
                 <Phone size={19} />
               </div>
               <div>
+                {/* <p className="mt-1 text-[#43594d]">(626) 201-7428</p> */}
                 <p className="font-bold">Phone</p>
-                <p className="mt-1 text-[#43594d]">Phone number coming soon</p>
+                <a
+                  href="tel:+16262017428"
+                  className="mt-1 block text-[#43594d] transition hover:text-[#13291f]"
+                >
+                  (626) 201-7428
+                </a>
               </div>
             </div>
 
@@ -48,7 +54,12 @@ function ContactCTASection() {
               </div>
               <div>
                 <p className="font-bold">Email</p>
-                <p className="mt-1 text-[#43594d]">Email coming soon</p>
+                <a
+                  href="mailto:devbydiamond24.7@gmail.com"
+                  className="mt-1 block text-[#43594d] transition hover:text-[#13291f]"
+                >
+                  devbydiamond24.7@gmail.com
+                </a>
               </div>
             </div>
 
@@ -68,11 +79,12 @@ function ContactCTASection() {
 
           <div className="mt-7 rounded-2xl border border-[#e2d8c3] bg-white p-5">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#9c7a32]">
-              Future Feature
+              Request an Estimate
             </p>
             <p className="mt-3 leading-7 text-[#43594d]">
-              This area will later connect to an estimate request form, customer
-              lead tracking, and a Supabase-powered admin dashboard.
+              Submit your project details and we’ll review your request as soon
+              as possible. Lucio’s Gardening can help with lawn care, tree care,
+              landscaping, irrigation, and outdoor property maintenance.
             </p>
           </div>
         </div>
